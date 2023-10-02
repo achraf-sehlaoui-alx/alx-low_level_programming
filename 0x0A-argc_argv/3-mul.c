@@ -9,7 +9,7 @@
 
 int main(int argc, char *argv[])
 {
-	int prd;
+	int prd = 0;
 
 	if (argc == 3)
 	{
