@@ -36,7 +36,7 @@ size_t list_in_lope(const listint_t *head)
 			{
 				node++;
 				t = t->next;
-		 	}
+			}
 
 			return (node);
 		}
