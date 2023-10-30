@@ -19,7 +19,7 @@ ssize_t read_textfile(const char *filename, size_t letters)
 		return (0);
 
 	size_bytes = read(fd, &buf[0], letters);
-	size_bytes = write(STDOUT_FILEND, &buf[0], size_bytes);
+	size_bytes = write(STDOUT_FILENO, &buf[0], size_bytes);
 	close(fd);
 
 	return (size_bytes);
